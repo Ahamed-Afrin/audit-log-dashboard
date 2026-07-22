@@ -1,0 +1,25 @@
+/* Alternate row hover effect */
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.07);
+  cursor: default;
+}
+
+/* Sticky header shadow so it's visually separated while scrolling */
+.table thead.table-dark th {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode adjustments for cards */
+[data-bs-theme="dark"] .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+[data-bs-theme="dark"] .table-light {
+  --bs-table-bg: #2a2a2a;
+  color: #f1f1f1;
+}
+
+[data-bs-theme="dark"] .text-muted {
+  color: #adb5bd !important;
+}
