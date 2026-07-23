@@ -124,7 +124,7 @@ cp .env.example .env   # then edit .env with your MongoDB URI
 npm run dev
 ```
 
-The API will start on **http://localhost:5000**.
+The API will start on **https://audit-log-dashboard-backend.onrender.com**.
 
 ### Frontend setup
 
@@ -169,8 +169,7 @@ CLIENT_URL=http://localhost:5173
 
 ### `frontend/.env`
 ```env
-VITE_API_BASE_URL=http://localhost:5000/api
-```
+VITE_API_BASE_URL=https://audit-log-dashboard-backend.onrender.com/api/logs
 
 ---
 
@@ -187,7 +186,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 ## 📡 API Documentation
 
-Base URL: `http://localhost:5000/api`
+Base URL: `https://audit-log-dashboard-backend.onrender.com/api/'
 
 ### 1. Bulk Upload Logs
 ```
